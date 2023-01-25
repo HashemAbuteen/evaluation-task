@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    height: 100vh;
+}
+
+main>section:first-child {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+
+#main-form {
+    width: 50%;
+    height: 100%;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+input[type="text"]::placeholder {
+    color: green;
+}
+
+h1 {
+    transform: rotateX(20deg);
+}
